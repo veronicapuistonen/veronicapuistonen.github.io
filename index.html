@@ -1,6 +1,7 @@
 <html>
 <head>
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/webpage-font.css">
 </head>
 <body>
 	<br>
@@ -8,25 +9,21 @@
 	<h2>A Humber PR student who loves fashion, social media and exploring new places</h2>
   <br>
   <nav>
-    <ul>
-      <li><a target="_blank" href="https://www.linkedin.com/in/veronica-puistonen-40a00487">LinkedIn</a></li>
-      <li><a target="_blank" href="https://twitter.com/vpuistonen">Twitter</a></li>
-      <li><a target="_blank" href="https://www.instagram.com/veronicapuistonen/">Instagram</a></li>
-      <li><a target="_blank" href="http://www.veronicapuistonen.blog.com/">Blog</a></li>
-      <li><a target="_blank" href="http://www.hercampus.com/author/veronica-puistonen">Her Campus</a></li>
+    <ul id="links">
+      <li><a target="_blank" href="https://www.linkedin.com/in/veronica-puistonen-40a00487" class="icon-linkedin"></a></li>
+      <li><a target="_blank" href="https://twitter.com/vpuistonen" class="icon-twitter"></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/veronicapuistonen/" class="icon-instagram"></a></li>
+      <li><a target="_blank" href="http://www.veronicapuistonen.blog.com/" class="icon-blogger"></a></li>
+      <li><a target="_blank" href="http://www.hercampus.com/author/veronica-puistonen" class="icon-hercampus"></a></li>
     </ul>
   </nav>
 </body>
 </html>
 
-
-
-
-
 <style>
 { margin: 0; padding: 0; }
 html { 
-        background: url('skyline.jpg') no-repeat center center fixed; 
+        background: url('skyline.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -48,4 +45,23 @@ h1{
 h2{
   font-size: 20px;
 }
+
+ul#links {
+    padding: 0;
+}
+
+ul#links li {
+    display: inline;
+}
+
+ul#links li a {
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+ul#links li a:hover {
+    background-color: lightblue;
+}
+
 </style>
